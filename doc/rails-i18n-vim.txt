@@ -1,0 +1,27 @@
+*rails-i18n-vim.txt* Plugin for working with rails i18n localization using vim
+
+===============================================================================
+CONTENTS                                                       *rails-i18n-vim*
+
+    1. Intro ........................................... |rails-i18n-vim-intro|
+    2. Requirements ............................. |rails-i18n-vim-requirements|
+    3. Usage ........................................... |rails-i18n-vim-usage|
+    4. Licence ....................................... |rails-i18n-vim-licence|
+===============================================================================
+1. Intro                                                 *rails-i18n-vim-intro*
+
+Overview of plugin
+
+2. Requirements                                   *rails-i18n-vim-requirements*
+
+What additional programs are required to run the plugin
+
+3. Usage                                                 *rails-i18n-vim-usage*
+
+How to use the plugin. What functions does it give the user?
+
+4. Licence                                             *rails-i18n-vim-licence*
+
+This is open source make sure to include a licence
+
+vim:ft=help
