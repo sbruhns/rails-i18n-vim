@@ -8,6 +8,14 @@ Currently only `:GoToTranslation` is supported. If your currsor is on a `I18n.t(
 
 This plugin is written in ruby so Vim has to be compiled with `+ruby`.
 
+On Mac:
+- You can use macvim 
+- or compile vim by your own.
+
+On Linux:
+- e.g. ubuntu you can use vim-nox
+- or compile your own
+
 ## Installation
 
 Use your plugin manager of choice.
