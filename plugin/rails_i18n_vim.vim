@@ -11,8 +11,8 @@ ruby <<EOF
 
   current_cword = Vim.evaluate('expand("<cWORD>")')
   translation_key = current_cword.scan(/t\(\s*[\"|\']([\w|\.]+)[\"|\']\s*\)/).first.first
-  if !translation_key.nil? && RailsI18nLib.key_exist?(locale_file_path: path, translation_key: translation_key)
-     line = RailsI18nLib.get_line_for_key(locale_file_path: path ,translation_key: translation_key)
+  if !translation_key.nil? && RailsI18nLib.key_exist?(path, translation_key)
+     line = RailsI18nLib.get_line_for_key(path ,translation_key)
   else
     line = 0
   end
